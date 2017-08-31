@@ -1,0 +1,18 @@
+(
+{ testcasename,test1.csc }
+{ title,firsttestcase}
+{ radiomedium,se.sics.cooja.radiomediums.UDGM}
+{ motetype,se.sics.cooja.mspmote.SkyMoteType,source,[CONTIKI_DIR]/examples/netperf/netperf-shell.c,identifier,sky1}
+{ mote1,se.sics.cooja.mspmote.SkyMote,motetype_identifier,sky1}
+{ SimControl,placeholder}
+{ TimeLine,placeholder } 
+)
+(
+{ testcasename,test2.csc }
+{ title,secondtestcase}
+{ radiomedium,se.sics.cooja.radiomediums.UDGM}
+{ motetype,se.sics.cooja.mspmote.SkyMoteType,source,[CONTIKI_DIR]/examples/netperf/netperf-shell.c,identifier,sky1}
+{ mote1,se.sics.cooja.mspmote.SkyMote,motetype_identifier,sky1}
+{ SimControl,placeholder}
+{ TimeLine,placeholder } 
+)
